@@ -2,10 +2,11 @@
 int main() {
    // printf() displays the string inside quotation
    printf("Hello, World!");
-<<<<<<< HEAD
    printf("hello from <dev_bilel> branch");
-=======
-   printf("I'm yasmine");
->>>>>>> 25472fe (adding new line)
+   char c;
+   printf("Enter a character: ");
+   scanf("%c", &c);  
+   printf("ASCII value of %c = %d", c, c);    
    return 0;
 }
+  
